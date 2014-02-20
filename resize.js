@@ -3,7 +3,7 @@
  * dependencies.
  */
 
-var merge = require('merge');
+var merge = require('yields-merge');
 
 /**
  * east

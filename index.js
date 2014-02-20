@@ -3,14 +3,14 @@
  * dependencies.
  */
 
-var configurable = require('configurable.js')
-  , emitter = require('emitter')
-  , classes = require('classes')
-  , mouse = require('mouse')
-  , domify = require('domify')
+var configurable = require('visionmedia-configurable.js')
+  , emitter = require('component-emitter')
+  , classes = require('component-classes')
+  , mouse = require('ui-component-mouse')
+  , domify = require('component-domify')
   , tpl = require('./template')
   , resize = require('./resize')
-  , merge = require('merge');
+  , merge = require('yields-merge');
 
 /**
  * export `Resizable`.
